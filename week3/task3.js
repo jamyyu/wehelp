@@ -1,8 +1,8 @@
 function toggleMenu(){
     let popupmenu=document.getElementById("popupMenu");
     popupmenu.classList.toggle("hide");
-
 }
+
 function closeMenu(){
     let popupmenu=document.getElementById("popupMenu");
     popupmenu.classList.add("hide");
@@ -13,7 +13,7 @@ window.addEventListener('resize', function(){
     let popupmenu=document.getElementById("popupMenu");
         if (width > 600) {
             popupmenu.classList.add("hide");}
-  });
+});
 
 
 fetch("https://padax.github.io/taipei-day-trip-resources/taipei-attractions-assignment-1").then(function(response){
