@@ -45,4 +45,4 @@ fetch("https://padax.github.io/taipei-day-trip-resources/taipei-attractions-assi
         const replaceText=document.querySelector(`.title${i} .t`);
         replaceText.lastChild.nodeValue=imgList[i+2].name;
     }    
-});
+    });
