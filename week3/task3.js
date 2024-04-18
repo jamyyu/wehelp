@@ -36,15 +36,15 @@ fetch("https://padax.github.io/taipei-day-trip-resources/taipei-attractions-assi
         let newImg=document.createElement("img");  // 建img元素
         newImg.src=imgList[i-1].img;  
         pictureSpan.appendChild(newImg);
-        const replaceText = document.querySelector(`.promotion${i} .p`);
+        const replaceText=document.querySelector(`.promotion${i} .p`);
         replaceText.lastChild.nodeValue = imgList[i-1].name;
 
 
     }
     for(let i=1;i<11;i++){
-        const titleDiv = document.querySelector(`.title${i} `);
-        titleDiv.style.backgroundImage = `url(${imgList[i+2].img})`;
-        const replaceText = document.querySelector(`.title${i} .t`);
-        replaceText.lastChild.nodeValue = imgList[i+2].name;
+        const titleDiv=document.querySelector(`.title${i} `);
+        titleDiv.style.backgroundImage=`url(${imgList[i+2].img})`;
+        const replaceText=document.querySelector(`.title${i} .t`);
+        replaceText.lastChild.nodeValue=imgList[i+2].name;
     }    
 });
