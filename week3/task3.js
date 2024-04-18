@@ -38,8 +38,6 @@ fetch("https://padax.github.io/taipei-day-trip-resources/taipei-attractions-assi
         pictureSpan.appendChild(newImg);
         const replaceText=document.querySelector(`.promotion${i} .p`);
         replaceText.lastChild.nodeValue = imgList[i-1].name;
-
-
     }
     for(let i=1;i<11;i++){
         const titleDiv=document.querySelector(`.title${i} `);
