@@ -32,3 +32,7 @@ SELECT * FROM member;<br>
 3-3:<br>
 SELECT * FROM member ORDER BY time DESC;<br>
 ![3-3](https://github.com/jamyyu/wehelp_stage1/assets/103821947/0b0f6b9e-8b2f-4581-83db-fdca426632d3)<br>
+
+3-4:<br>
+SELECT * FROM member ORDER BY time DESC LIMIT 3 OFFSET 1;<br>
+
