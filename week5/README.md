@@ -51,7 +51,7 @@ SELECT * FROM member WHERE username='test' and password='test';<br>
 
 3-8:<br>
 UPDATE member SET name='test2' WHERE username='test';<br>
-![3-8]()<br>
+![3-8](https://github.com/jamyyu/wehelp_stage1/assets/103821947/bf5fa30a-9de8-465f-9727-0dcbedace909)<br>
  
 
 
