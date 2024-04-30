@@ -15,3 +15,11 @@ CREATE TABLE member(<br>
 );<br>
 ![2-2](https://github.com/jamyyu/wehelp_stage1/assets/103821947/a50fa586-e6f0-4f6d-a3fd-b3f4bef383d3
 )<br>
+
+3-1:<br>
+INSERT INTO member(id, name, username, password, follower_count, time) VALUES(1, 'test', 'test', 'test', 200, '2024-01-05 14:30:45');<br>
+INSERT INTO member(name, username, password, follower_count, time) VALUES('Jon Snow', 'Jon', '123', 1000, '2024-03-05 13:05:25');<br>
+INSERT INTO member(name, username, password, follower_count, time) VALUES('Arya Stark', 'Arya', '456', 1200, '2024-02-28 08:10:32');<br>
+INSERT INTO member(name, username, password, follower_count, time) VALUES('Daenerys Targaryen', 'Mother of Dragons', '666', 1080, '2024-04-05 12:30:30');<br>
+INSERT INTO member(name, username, password, follower_count, time) VALUES('Jaime Lannister', 'Jamie', '999', 1500, '2024-01-01 02:43:28');<br>
+
