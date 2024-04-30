@@ -47,7 +47,7 @@ SELECT * FROM member WHERE name LIKE '%es%';<br>
 
 3-7:<br>
 SELECT * FROM member WHERE username='test' and password='test';<br>
-![3-7]()<br>
+![3-7](https://github.com/jamyyu/wehelp_stage1/assets/103821947/0c03237a-ec43-4787-a27f-63b92fcfb9a3)<br>
  
 
 
