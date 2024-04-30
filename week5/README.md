@@ -43,7 +43,7 @@ SELECT * FROM member WHERE username='test';<br>
 
 3-6:<br>
  SELECT * FROM member WHERE name LIKE '%es%';<br>
- ![3-6]()<br>
+ ![3-6](https://github.com/jamyyu/wehelp_stage1/assets/103821947/e9e6513d-e332-4ed3-ab8c-3038309c0115)<br>
  
 
 
