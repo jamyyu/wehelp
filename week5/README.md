@@ -27,4 +27,5 @@ INSERT INTO member(name, username, password, follower_count, time) VALUES('Jaime
 
 3-2:<br>
 SELECT * FROM member;<br>
+![3-2](https://github.com/jamyyu/wehelp_stage1/assets/103821947/46e0b005-8f04-413e-bdad-4ac4cf2446cd)<br>
 
