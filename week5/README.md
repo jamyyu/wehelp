@@ -22,4 +22,6 @@ INSERT INTO member(name, username, password, follower_count, time) VALUES('Jon S
 INSERT INTO member(name, username, password, follower_count, time) VALUES('Arya Stark', 'Arya', '456', 1200, '2024-02-28 08:10:32');<br>
 INSERT INTO member(name, username, password, follower_count, time) VALUES('Daenerys Targaryen', 'Mother of Dragons', '666', 1080, '2024-04-05 12:30:30');<br>
 INSERT INTO member(name, username, password, follower_count, time) VALUES('Jaime Lannister', 'Jamie', '999', 1500, '2024-01-01 02:43:28');<br>
+![3-1](https://github.com/jamyyu/wehelp_stage1/assets/103821947/1fc70ad5-e8ce-43f4-b91a-78477368b427
+)<br>
 
