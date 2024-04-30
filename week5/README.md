@@ -5,7 +5,7 @@ create database website;
 )
 
 2-2:
-use website;
+use website;</br>
 CREATE TABLE member(
     id BIGINT PRIMARY KEY AUTO_INCREMENT COMMENT 'Unique ID',
     name VARCHAR(255) NOT NULL COMMENT 'Name',
