@@ -39,4 +39,6 @@ SELECT * FROM member ORDER BY time DESC LIMIT 3 OFFSET 1;<br>
 
 3-5:<br>
 SELECT * FROM member WHERE username='test';<br>
+![3-5](https://github.com/jamyyu/wehelp_stage1/assets/103821947/7e45baf9-6f28-44f9-9da0-eb843c3d02fd)<br>
+
 
