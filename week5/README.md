@@ -79,7 +79,7 @@ CREATE TABLE message(<br>
     FOREIGN KEY(member_id)<br>
     REFERENCES member(id)<br>
 );<br>
-![5-1]()<br>
+![5-1](https://github.com/jamyyu/wehelp_stage1/assets/103821947/85baedf1-7e3d-4dbb-b256-16c2edc13894)<br>
 
 
 
