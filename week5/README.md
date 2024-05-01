@@ -69,6 +69,18 @@ SELECT AVG(follower_count) FROM member;<br>
 SELECT AVG(follower_count) FROM (SELECT follower_count FROM member ORDER BY follower_count DESC LIMIT 2) AS top_two_avg;<br>
 ![4-4](https://github.com/jamyyu/wehelp_stage1/assets/103821947/b11ddda1-aa5c-4608-bf05-2c5b8240242c)<br>
 
+5-1:<br>
+CREATE TABLE message(<br>
+    id BIGINT PRIMARY KEY AUTO_INCREMENT COMMENT 'Unique ID',<br>
+    member_id BIGINT NOT NULL COMMENT 'Member ID for Message Sender',<br>
+    content VARCHAR(255) NOT NULL COMMENT 'Content',<br>
+    like_count INT UNSIGNED NOT NULL DEFAULT 0 COMMENT 'Like Count',<br>
+    time DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'Publish Time',<br>
+    FOREIGN KEY(member_id)<br>
+    REFERENCES member(id)<br>
+);<br>
+![5-1]()<br>
+
 
 
  
