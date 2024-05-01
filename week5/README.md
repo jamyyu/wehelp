@@ -61,6 +61,10 @@ SELECT COUNT(*) FROM member;<br>
 SELECT SUM(follower_count) FROM member;<br>
 ![4-2](https://github.com/jamyyu/wehelp_stage1/assets/103821947/bfee4392-d7d4-47b5-a808-db9b3bdf1bf7)<br>
 
+4-3:<br>
+SELECT AVG(follower_count) FROM member;<br>
+![4-3]()<br>
+
  
 
 
