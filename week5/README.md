@@ -92,7 +92,7 @@ message.time<br>
 FROM message<br>
 INNER JOIN member<br>
 ON message.member_id=member.id;<br>
-![5-2]()<br>
+![5-2](https://github.com/jamyyu/wehelp_stage1/assets/103821947/728bb284-ac2d-4ab2-b273-9ea5e2a99380)<br>
 
 
 
