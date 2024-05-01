@@ -65,6 +65,12 @@ SELECT SUM(follower_count) FROM member;<br>
 SELECT AVG(follower_count) FROM member;<br>
 ![4-3](https://github.com/jamyyu/wehelp_stage1/assets/103821947/e5c915dc-fb9a-49ca-b252-0e3af4e2bf19)<br>
 
+4-4:<br>
+SELECT AVG(follower_count) FROM (SELECT follower_count FROM member ORDER BY follower_count DESC LIMIT 2) AS top_two_avg;<br>
+![4-4]()<br>
+
+
+
  
 
 
