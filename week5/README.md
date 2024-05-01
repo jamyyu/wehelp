@@ -106,7 +106,7 @@ FROM message<br>
 INNER JOIN member<br>
 ON message.member_id=member.id<br>
 WHERE member.username = 'test';<br>
-![5-3]()<br>
+![5-3](https://github.com/jamyyu/wehelp_stage1/assets/103821947/f3b421bb-a837-4513-a5b8-52cb3e027538)<br>
 
 
 
