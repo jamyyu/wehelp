@@ -92,7 +92,7 @@ message.time<br>
 FROM message<br>
 INNER JOIN member<br>
 ON message.member_id=member.id;<br>
-![5-2]()<br>
+![5-2](https://github.com/jamyyu/wehelp_stage1/assets/103821947/183ee60c-7497-4969-8554-930128e32c0b)<br>
 
 5-3:<br>
 SELECT<br>
@@ -106,7 +106,7 @@ FROM message<br>
 INNER JOIN member<br>
 ON message.member_id=member.id<br>
 WHERE member.username = 'test';<br>
-![5-3]()<br>
+![5-3](https://github.com/jamyyu/wehelp_stage1/assets/103821947/dfd14a2f-a25a-4468-ab64-4b2e7ce39381)<br>
 
 5-4:<br>
 SELECT AVG(message.like_count)<br>
@@ -114,7 +114,7 @@ FROM message<br>
 INNER JOIN member<br>
 ON message.member_id = member.id<br>
 WHERE member.username = 'test';<br>
-![5-4]()<br>
+![5-4](https://github.com/jamyyu/wehelp_stage1/assets/103821947/94b55ff0-7f86-4e5b-83b4-9e4f7ff60049)<br>
 
 5-5:<br>
 SELECT AVG(message.like_count)<br>
@@ -122,7 +122,7 @@ FROM message<br>
 INNER JOIN member<br>
 ON message.member_id = member.id<br>
 GROUP BY member.username;<br>
-![5-5]()<br>
+![5-5](https://github.com/jamyyu/wehelp_stage1/assets/103821947/a198acae-7fc4-44cb-bf7c-e5d1dfcbd26f)<br>
 
 
 
