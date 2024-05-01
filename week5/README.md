@@ -114,7 +114,7 @@ FROM message<br>
 INNER JOIN member<br>
 ON message.member_id = member.id<br>
 WHERE member.username = 'test';<br>
-![5-4]()<br>
+![5-4](https://github.com/jamyyu/wehelp_stage1/assets/103821947/170f5f71-c48c-4003-94d9-0cb3dbb7092b)<br>
 
 
 
