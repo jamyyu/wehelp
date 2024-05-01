@@ -81,6 +81,19 @@ CREATE TABLE message(<br>
 );<br>
 ![5-1](https://github.com/jamyyu/wehelp_stage1/assets/103821947/85baedf1-7e3d-4dbb-b256-16c2edc13894)<br>
 
+5-2:<br>
+SELECT<br>
+message.id,<br>
+message.member_id,<br>
+member.name AS 'sender name',<br>
+message.content,<br>
+message.like_count,<br>
+message.time<br>
+FROM message<br>
+INNER JOIN member<br>
+ON message.member_id=member.id;<br>
+![5-2]()<br>
+
 
 
  
