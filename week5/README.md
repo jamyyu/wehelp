@@ -57,6 +57,10 @@ UPDATE member SET name='test2' WHERE username='test';<br>
 SELECT COUNT(*) FROM member;<br>
 ![4-1](https://github.com/jamyyu/wehelp_stage1/assets/103821947/b47b2639-6188-4d14-a52b-b5f8278aad8d)<br>
 
+4-2:<br>
+SELECT SUM(follower_count) FROM member;<br>
+![4-2]()<br>
+
  
 
 
