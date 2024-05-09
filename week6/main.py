@@ -10,7 +10,7 @@ from pydantic import BaseModel
 
 con=mysql.connector.connect(
     user="root",
-    password="sE19921118!!",
+    password="",
     host="localhost",
     database="website"
 )
